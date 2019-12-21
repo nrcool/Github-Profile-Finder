@@ -1,0 +1,100 @@
+.container{
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    background: black;;
+    border: 20px solid lightgreen;
+}
+#main{
+    margin-top: 30vh;
+    transform: scale(1.6);
+
+}
+h1{
+    text-align: center;
+    padding-top:20px; 
+    font-size: 40px;
+    color: lightgreen;
+}
+i{
+    padding: 0 5px;
+    font-size: 50px;
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+button{
+    display: block;
+    background: lightgreen;
+    font-weight: bold;
+    font-size: 15px;
+}
+input{
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+    width: 25vw;
+}
+input:focus{
+    width: 30vw;
+    height: 25px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 10px;
+    display: none;
+
+}
+.details div{
+    width: 45%;
+    height: 20%;
+    margin: 0 auto;
+    border: 1px solid green;
+    color: lightgreen;
+    padding: 10px;
+    flex-grow: 1;
+}
+span{
+    color: white;
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box img{
+
+    display: inline-block;
+    padding: 20px;
+}
+
+@media only screen and (max-width:430px){
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    height: 100%;
+}
+#main{
+    margin-top: 30vh;
+    transform: scale(1.3);
+
+}
+input{
+    width: 35vw;
+}
+input:focus{
+    width: 40vw;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+}
